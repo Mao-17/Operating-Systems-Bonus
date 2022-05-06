@@ -1,0 +1,13 @@
+This bonus assignment can be compiled either by running the make command to compile all the three codes or running the makefile.txt after going in the bonustry directory.
+We solved different variations of dining philosopher problem as a part of this assignment.
+
+The first part is the standard dining philosoper's problem where each philosoper requires both the forks to eat.
+I used the both binary and counting semaphores in my code to implement the dealock free version.
+
+In the second part, the philosophers need 1 fork from either sides and 1 bowl from the 4 bowls accessible to every philosopher.
+I again used both the semaphores. Although, deadlock won't be there in this question, as the philosopher could just pick up the spoon on one specific side and the bowls are accessible to everyone.
+
+In the third part, the philosophers need both the forks and 1 bowl to eat.
+I again used both types of semaphores to implement the deadlock free code. 
+
+In my program, I have created threads which refer to the 5 philosophers sitting around the table, and the reason behind that is because we want multiple philosophers to eat at the same time.
